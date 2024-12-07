@@ -1,0 +1,30 @@
+body {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b3dfef83; 
+} 
+p {
+    font-weight: 600;
+    color: rgb(231, 82, 82);
+}
+ul {
+    font-weight: 570;
+    color: rgb(231, 82, 82);
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
